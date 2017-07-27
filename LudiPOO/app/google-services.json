@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "672926134613",
+    "firebase_url": "https://ludipoo-d8c05.firebaseio.com",
+    "project_id": "ludipoo-d8c05",
+    "storage_bucket": "ludipoo-d8c05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672926134613:android:f5363b106d8b28dd",
+        "android_client_info": {
+          "package_name": "com.example.alejandro.ludipoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672926134613-8njappknmpuq4lpsaecgaqbs81uiq8s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3nrpljeSLXPPfXXC_-SAKUJBV84gx-wU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672926134613:android:6f090c38047f126b",
+        "android_client_info": {
+          "package_name": "mx.edu.itver.lopezbeto.vistasagiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672926134613-8njappknmpuq4lpsaecgaqbs81uiq8s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3nrpljeSLXPPfXXC_-SAKUJBV84gx-wU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

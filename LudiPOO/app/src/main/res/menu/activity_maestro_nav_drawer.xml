@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Cuenta">
+        <menu>
+
+            <item
+                android:id="@+id/nav_modify_profile"
+                android:icon="@drawable/ic_user_profile"
+                android:title="Modificar Perfil" />
+            <item
+                android:id="@+id/nav_maestro_crear_reactivos"
+                android:icon="@drawable/ic_question"
+                android:title="Crear Reactivo" />
+            <item
+                android:id="@+id/nav_maestro_modificar_reactivos"
+                android:icon="@drawable/ic_modify_question"
+                android:title="Modificar Reactivos" />
+            <item
+                android:id="@+id/nav_maestro_sign_out"
+                android:icon="@drawable/ic_sign_out"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>

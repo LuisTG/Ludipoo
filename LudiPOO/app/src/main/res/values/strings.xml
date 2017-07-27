@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LudiPOO</string>
+    <string name="action_signOut">Cerrar Sesión</string>
+    <string name="action_settings">Configuración</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="unirText">¿Deseas convertirte en un experto en POO? Introduce el código y prepárate para una nueva experiencia</string>
+    <string name="title_activity_maestro">Perfil de Maestro</string>
+    <string-array name="respuestas_values">
+        <item>Respuesta 1</item>
+        <item>Respuesta 2</item>
+        <item>Respuesta 3</item>
+        <item>Respuesta 4</item>
+    </string-array>
+    <string-array name="unidades_values">
+        <item>Unidad 1</item>
+        <item>Unidad 2</item>
+        <item>Unidad 3</item>
+        <item>Unidad 4</item>
+        <item>Unidad 5</item>
+        <item>Unidad 6</item>
+    </string-array>
+</resources>

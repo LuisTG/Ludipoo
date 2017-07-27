@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="180dp"
+           android:orientation="vertical"
+           android:layout_marginBottom="10dp"
+           android:background="@drawable/bg2"
+           android:elevation="5dp">
+
+           <ImageView
+               android:id="@+id/profile_pic"
+               android:layout_gravity="center"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginBottom="10dp"
+               android:src="@drawable/profile"/>
+
+           <TextView
+               android:id="@+id/txt_profile_nombre"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:textAppearance="@style/TextAppearance.AppCompat.Title"
+               android:text="User Name"
+               android:textColor="@color/white"/>
+
+           <TextView
+               android:id="@+id/txt_profile_nocontrol"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+               android:text="E17020800"
+               android:textColor="@color/white"/>
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:text="Email" />
+
+            <TextView
+                android:id="@+id/txt_profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="mi.correo@gmail.com"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:text="Grupo" />
+
+            <TextView
+                android:id="@+id/txt_profile_grupo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="21763723"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:text="Total de Aciertos" />
+
+            <TextView
+                android:id="@+id/txt_profile_buenas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30 Preguntas Correctas" />
+
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.RadarChart
+            android:id="@+id/grafica"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+</ScrollView>

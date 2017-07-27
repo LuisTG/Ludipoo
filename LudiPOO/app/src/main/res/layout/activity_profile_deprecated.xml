@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_profile_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_profile_nocontrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_profile_grupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_profile_buenas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:text="TextView" />
+
+        <com.github.mikephil.charting.charts.RadarChart
+            android:id="@+id/grafica"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="13.50" />
+    </LinearLayout>
+</LinearLayout>
